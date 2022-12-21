@@ -23448,7 +23448,6 @@ a.u-button-style.u-border-20 {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: 0px;
 }
 
 .u-header .u-nav-2 {
@@ -23457,6 +23456,10 @@ a.u-button-style.u-border-20 {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 
